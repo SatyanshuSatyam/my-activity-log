@@ -30,4 +30,5 @@ jobs:
         run: |
           # We inject the token into the URL so the script can push without a password
           # Replace 'yourusername/target-empty-repo' with the repo you want to fill with green squares
-          python contribute.py --repository=https://$PAT@github.com/yourusername/target-empty-repo.git --max_commits=10 --frequency=80 --no_weekends
+          # python contribute.py --repository=https://$PAT@github.com/SatyanshuSatyam/target-empty-repo.git --max_commits=10 --frequency=80 --no_weekends
+          python contribute.py --repository=https://$PAT@github.com/SatyanshuSatyam/my-activity-log.git --max_commits=10 --frequency=80 --no_weekends
