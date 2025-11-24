@@ -20,8 +20,8 @@ jobs:
 
       - name: Configure Git for Runner
         run: |
-          git config --global user.email "your-email@example.com"
-          git config --global user.name "yourusername"
+          git config --global user.email "satyanshu2801@gmail.com"
+          git config --global user.name "SatyanshuSatyam"
 
       - name: Run Contribution Script
         env:
